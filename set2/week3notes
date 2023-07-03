@@ -1,0 +1,35 @@
+my_list = [1, 2, 3, 4, 5]
+my_dict = {"name": "Cake"}
+
+print(my_list)
+
+# Class notes
+# we want to start iwth a failing test
+""" rafactoring is refining your code
+
+git is used professionally to collaborate, we are learning this work flow to turn in our work
+
+New Syntax
+
+"in"
+
+5   in  [1,2,3]     >   False
+
+try/except
+
+catching errors
+
+giver of life and the giver of speed
+
+"""
+try:
+    do_a_dumb()
+except Exception as e:
+    print("You did a dumb", e)
+finally:
+    print("we still love you")
+
+    """ elegence, parsimony, efficiency, maintainability
+    
+    0(1) 
+    0(n) function"""

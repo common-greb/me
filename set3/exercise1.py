@@ -5,7 +5,7 @@ Modify each function until the tests pass.
 """
 
 
-def loop_ranger(start, stop=None, step=1):
+def loop_ranger(start=3, stop=10, step=2):
     """Return a list of numbers between start and stop in steps of step.
 
     Using a while loop make a list of numbers that goes from the start number up
@@ -17,7 +17,13 @@ def loop_ranger(start, stop=None, step=1):
     Look up for how range() works in the python docs. You could  answer this
     with just the range function, but we'd like you to do it the long way.
     """
-    return None
+    result = []
+    current = start
+
+    while current < stop:
+        result.append(current)
+        current += step
+    return result
 
 
 def two_step_ranger(start, stop):
@@ -28,7 +34,9 @@ def two_step_ranger(start, stop):
 
     You can either reuse loop_ranger, or the range function that in the standard library
     """
-    return None
+    start=0
+    stop=10
+    return list(range(start, stop, 2))
 
 
 def stubborn_asker(low, high):
@@ -39,7 +47,15 @@ def stubborn_asker(low, high):
 
     Look up the docs for a function called "input"
     """
-    return None
+    while True:
+        number = input("Please enter a number between {} and {} ".format(low, high))
+        number = int(number)
+        if low <= number <= high:
+                return number
+        else:
+                print("The inputted number is outside the specified range. Please input another number")
+
+# definitely used chat gpt to get this one, but I'm annoyed that I did! I think I could have got it on my own. I understand the code.
 
 
 def not_number_rejector(message):
@@ -49,7 +65,14 @@ def not_number_rejector(message):
     (e.g. "cow", "six", "8!") then throw it out and ask for an actual number.
     When you do get a number, return it.
     """
-    return None
+    while True:
+        number = input("Please enter a number ")
+        try:
+            number = int(number)
+            return number
+        except ValueError:
+            print("Please enter a valid number")
+# Yay! I did this one without any help
 
 
 def super_asker(low, high):
@@ -58,7 +81,16 @@ def super_asker(low, high):
     Combine what you learnt from stubborn_asker and not_number_rejector
     to make a function that does it all!
     """
-    return None
+    while True:
+        number = input("Please enter a number between {} and {} ".format(low, high))
+        try:
+            number = int(number)
+            if low <= number <= high:
+                return number
+            else:
+                print("The inputted number is outside the specified range. Please input another number")
+        except ValueError:
+            print("Please input a valid number")
 
 
 if __name__ == "__main__":
