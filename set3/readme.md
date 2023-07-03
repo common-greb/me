@@ -3,3 +3,5 @@ For some reason, this was a bit of fun. I used a little bit of ChatGPT to help u
 I think I'm slowly developing my coding muscles, and I'm beginning to really enjoy the problem solving element. I still find the work very difficult, and usually quite frustrating, but if I'm at home, going at my own pace, I find it manageable. I also got some help from my brother who is a big coding nerd.
 
 At this point I have not done exercise 4. I'll definitely need to watch the lecture and do some research for that one, it looks pretty intimidating.
+
+Well, I joined the code clinic session on 03/07 and Ben explained it to me, makes total sense now! I found the computer was just doing the same thing that I was doing when I was doing the guessing in exercise 3. Sweet!
