@@ -39,11 +39,12 @@ be_cool_for_ever("Ben", "ben_is_cool.lol_UR_joking")
 
 
 def safely_write(name, file_path):
+    mode = "w"
     with open(file_path, "w", encoding="utf-8") as history_book:
-        history_book.write(f"{name} is cool 💩💩")
+        history_book.write(f"{name} is cool 💩pooing pooing pooing Petrodragonic Apocalypse💩")
 
 
-safely_write("🕺👆☝🦆", "ducks.yes")
+safely_write("🕺👆☝🦆", "ducks.yes.txt")
 
 # See where each file was saved
 
