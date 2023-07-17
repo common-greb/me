@@ -1,1 +1,2 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+I've been sick for the last few weeks, and I'm falling behind. But, attending the coding clinic helped me feel more on top of things. I'm struggling with the tutorial work, and I feel like I cannot do most of it without help. ChatGPT has been a wonder, and I'm trying not to rely on it to do the work for me, but rather let it guide me through the tutorial work and explain it to me.

@@ -1,1 +1,2 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+I'm feeling very lost in this class. It's very chaotic, I feel like everything changes all the time, and I don't feel stable. I feel like I'm behind, but it's not as bad as I thought. From the conversations I've had with others in this class, it seems like everyone else is struggling too. I just don't know what to do at times, and I think the communication is quite poor. But, I'm glad that Ben is very responsive on Teams, and Chat GPT is the real teacher of this class.
