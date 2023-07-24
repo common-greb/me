@@ -1,6 +1,6 @@
 {
     "architecture": [
-        "32bit",
+        "64bit",
         "WindowsPE"
     ],
     "machine": "AMD64",
@@ -19,16 +19,16 @@
     ],
     "version": "10.0.22621",
     "python_build": [
-        "tags/v3.7.7:d7c567b08f",
-        "Mar 10 2020 09:44:33"
+        "tags/v3.11.4:d2340ef",
+        "Jun  7 2023 05:45:37"
     ],
-    "python_compiler": "MSC v.1900 32 bit (Intel)",
+    "python_compiler": "MSC v.1934 64 bit (AMD64)",
     "python_implementation(": "CPython",
-    "python_version(": "3.7.7",
+    "python_version(": "3.11.4",
     "python_version_tuple": [
         "3",
-        "7",
-        "7"
+        "11",
+        "4"
     ],
     "cpu_count": 6
 }
